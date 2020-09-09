@@ -22,9 +22,9 @@ import { PonudaComponent } from './components/ponuda/ponuda.component';
 import { PutnikComponent } from './components/putnik/putnik.component';
 import { ServisPonudaComponent } from './components/servis-ponuda/servis-ponuda.component';
 import { PlacanjeComponent } from './components/placanje/placanje.component';
-import { HttpClientModule  } from '@angular/common/http'; 
+import { HttpClientModule  } from '@angular/common/http';
 
-
+import {PaginationComponent} from './components/pagination/pagination/pagination.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +37,8 @@ import { HttpClientModule  } from '@angular/common/http';
     PonudaComponent,
     PutnikComponent,
     ServisPonudaComponent,
-    PlacanjeComponent
+    PlacanjeComponent,
+    PaginationComponent
 
 
   ],
@@ -58,7 +59,7 @@ import { HttpClientModule  } from '@angular/common/http';
     MatSliderModule,
     FontAwesomeModule,
     MatStepperModule,
-    HttpClientModule 
+    HttpClientModule
 
   ],
   providers: [],

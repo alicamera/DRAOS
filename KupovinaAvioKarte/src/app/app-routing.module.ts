@@ -8,6 +8,7 @@ import { PutnikComponent } from './components/putnik/putnik.component';
 import { ServisPonudaComponent } from './components/servis-ponuda/servis-ponuda.component';
 import { PlacanjeComponent } from './components/placanje/placanje.component';
 
+import { PaginationComponent } from './components/pagination/pagination/pagination.component';
 const routes: Routes = [
   { path: '', component: PocetnaComponent },
   { path: 'pocetna', component: PocetnaComponent },
