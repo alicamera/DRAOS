@@ -34,7 +34,7 @@
     "@types/jquery": "^3.5.0",
     "angular-material": "^1.1.21",
     "bootstrap": "^4.4.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "heroku": "^7.42.4",
     "path": "^0.12.7",
     "rxjs": "~6.4.0",
